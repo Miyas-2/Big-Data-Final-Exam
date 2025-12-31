@@ -1,0 +1,18 @@
+{
+    "feature_columns": [
+        "Heart Rate",
+        "Respiratory Rate",
+        "Body Temperature",
+        "Oxygen Saturation",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Derived_BMI",
+        "Age",
+        "Gender_encoded",
+        "Derived_HRV",
+        "Derived_MAP",
+        "Derived_Pulse_Pressure"
+    ],
+    "target_column": "label",
+    "scaler_path": "output/scaler"
+}

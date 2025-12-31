@@ -1,0 +1,26 @@
+{
+    "best_model_statistically": "Random Forest",
+    "recommended_model_medically": "Gradient Boosted Trees",
+    "training_date": "2025-12-31 04:23:26",
+    "dataset_size": 200020,
+    "num_features": 12,
+    "features": [
+        "Heart Rate",
+        "Respiratory Rate",
+        "Body Temperature",
+        "Oxygen Saturation",
+        "Systolic Blood Pressure",
+        "Diastolic Blood Pressure",
+        "Derived_BMI",
+        "Age",
+        "Gender_encoded",
+        "Derived_HRV",
+        "Derived_MAP",
+        "Derived_Pulse_Pressure"
+    ],
+    "gbt_performance": {
+        "accuracy": 0.9808724748420605,
+        "f1_score": 0.9808713212094861,
+        "recall": 0.9808724748420605
+    }
+}
